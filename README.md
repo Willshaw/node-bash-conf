@@ -9,9 +9,9 @@ This allows you to keep API keys, Database names etc out your source code and in
 It's intended to read a simple text file like this:
 
 ```bash
-this line will be ignored
 EMPTY_VAR=
 FOO=BAR
+this line will be ignored
 ```
 
 Which has been used in a bash script like this:
