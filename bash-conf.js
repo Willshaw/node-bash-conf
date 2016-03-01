@@ -25,8 +25,9 @@ var q 		= require('q'),
 	readline= require('readline');
 	fs 		= require('fs');
 
-module.exports = {
-	read: function( path ) {
+function BashConf() {
+
+	this.read = function( path ) {
 		// set up promise and create file reader
 		var deferred = new q.defer(),
 			conf = {},
@@ -69,3 +70,5 @@ module.exports = {
 		return deferred.promise;
 	}
 }
+
+module.exports = BashConf;

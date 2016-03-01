@@ -26,7 +26,8 @@ export FOO
 
 ```javascript
 var path = process.argv[ 2 ],
-	bashConf = require('../bash-conf/bash-conf.js');
+	BashConf = require('bash-conf'),
+	bashConf = new BashConf();
 
 bashConf
 	.read( path )
