@@ -1,8 +1,7 @@
 {
-  "name": "express-cors-example",
+  "name": "bash-conf",
   "version": "0.0.1",
-  "main": "test.js",
   "dependencies": {
-    "express": "^4.12.4"
+    "q": "^1.2.0"
   }
 }
