@@ -3,5 +3,15 @@
   "version": "0.0.1",
   "dependencies": {
     "q": "^1.2.0"
-  }
+  },
+  "description": "Read a simple bash config file (simple variables and values) and convert into a Javascript object.",
+  "main": "bash-conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willshaw/node-bash-conf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Willshaw/node-bash-conf/issues"
+  },
+  "homepage": "https://github.com/Willshaw/node-bash-conf#readme"
 }
